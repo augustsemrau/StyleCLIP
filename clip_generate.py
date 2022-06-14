@@ -184,3 +184,5 @@ while True:
         print(f'Loss {loss.data.cpu().numpy()[0][0]}')
 
     counter += 1
+    if counter == 200:
+        break
